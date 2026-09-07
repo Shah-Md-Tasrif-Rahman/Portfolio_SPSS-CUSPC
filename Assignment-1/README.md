@@ -63,7 +63,7 @@ This project has no specific research question; it was designed primarily to ass
 ## Visualizations
 
 #### Study hours distribution
-![Study_hours_histogram](/Graphs and tables/Study_hours_histogram.png)
+![Study_hours_histogram](./Graphs%20and%20tables/Study_hours_histogram.png)
 
 #### Sleep hours distribution
 ![Sleep_hours_histogram](/Graphs and tables/Sleep_hours_histogram.png)
