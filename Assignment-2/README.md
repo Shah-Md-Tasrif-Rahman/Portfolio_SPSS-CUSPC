@@ -70,16 +70,16 @@ a. Dependent Variable: Gross annual salary (USD thousands)
 ## Visualizations
 
 #### Gross annual salary distribution
-![Gross_annual_salary_histogram](Graphs and tables/Gross_annual_salary_histogram.png)
+![Gross_annual_salary_histogram](./Graphs%20and%20tables/Gross_annual_salary_histogram.png)
 
 #### Office location distribution bar chart
-![Office_location_barplot](Graphs and tables/Office_location_barplot.png)
+![Office_location_barplot](./Graphs%20and%20tables/Office_location_barplot.png)
 
 #### Salary by office location boxplot
-![Boxplot](Graphs and tables/Boxplot.png)
+![Boxplot](./Graphs%20and%20tables/Boxplot.png)
 
 #### Salary and training hours scatter plot
-![Salary_vs_training_scatterplot](Graphs and tables/Salary_vs_training_scatterplot.png)
+![Salary_vs_training_scatterplot](./Graphs%20and%20tables/Salary_vs_training_scatterplot.png)
 
 ## Conclusion
 For the regression model, these three factors (formal education, years of professional work
@@ -93,4 +93,4 @@ experience, and hours of company-funded training) together account for `56.1% of
 
 [View the HTML report](use the modified github link here using htmlpreview.github.io)
 
-[View the PDF report](Final Output/assignment2_output_Shah_Md._Tasrif_Rahman.pdf)
+[View the PDF report](./Final%20Output/assignment2_output_Shah_Md._Tasrif_Rahman.pdf)
