@@ -66,13 +66,13 @@ This project has no specific research question; it was designed primarily to ass
 ![Study_hours_histogram](./Graphs%20and%20tables/Study_hours_histogram.png)
 
 #### Sleep hours distribution
-![Sleep_hours_histogram](/Graphs and tables/Sleep_hours_histogram.png)
+![Sleep_hours_histogram](./Graphs%20and%20tables/Sleep_hours_histogram.png)
 
 #### Attendence distribution
-![Percentage_attendence_histogram](/Graphs and tables/Percentage_attendence_histogram.png)
+![Percentage_attendence_histogram](./Graphs%20and%20tables/Percentage_attendence_histogram.png)
 
 ## Full Report
 
 [View the HTML report](use the modified github link here using htmlpreview.github.io)
 
-[View the PDF report](/Final Output/assignment1_data_Shah_Md._Tasrif_Rahman.pdf)
+[View the PDF report](./Final%20Output/assignment1_data_Shah_Md._Tasrif_Rahman.pdf)
