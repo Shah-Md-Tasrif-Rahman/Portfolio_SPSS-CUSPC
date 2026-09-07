@@ -73,6 +73,6 @@ This project has no specific research question; it was designed primarily to ass
 
 ## Full Report
 
-[View the HTML report](use the modified github link here using htmlpreview.github.io)
+[View the HTML report](https://htmlpreview.github.io/?https://github.com/Shah-Md-Tasrif-Rahman/Portfolio_SPSS-CUSPC/blob/main/Assignment-1/Final%20Output/Final%20Output.htm)
 
 [View the PDF report](./Final%20Output/assignment1_data_Shah_Md._Tasrif_Rahman.pdf)
