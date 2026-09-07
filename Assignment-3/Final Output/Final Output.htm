@@ -1,0 +1,3674 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Final Output.htm</title>
+<meta charset="utf-8"/>
+<style>
+.details {visibility:hidden;}
+.procedureTitle{color: #1d3649;font-weight: 600;font-size: 20px;line-height: 24px;margin-left: 32px;font-family: monospace;}
+.pivot{color:#264A60;background-color:#FFFFFF;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#E0E0E0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#F9F9FB;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#F9F9FB;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #AEAEAE;}
+.hDR{border-top:1px none #AEAEAE;}
+.vCR{border-left:1px none #AEAEAE;}
+.vDR{border-left:1px none #AEAEAE;}
+.hCC{border-bottom:1px none #AEAEAE;}
+.hDC{border-bottom:1px none #AEAEAE;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #AEAEAE;}
+.pivot{margin: 80px 40px 40px 80px;}
+.pivot thead.tr.th {padding:0px;border-spacing:0px}
+.hal{text-align:left} .hac{text-align:center} .har{text-align:right}
+.val{vertical-align:left} .vac{vertical-align:center} .var{vertical-align:right}
+</style>
+</head>
+<body>
+<p align="left"><html><BR>  <head><BR>    <style type="text/css"><BR>      <!--<BR>        p { color: 000000; font-family: Monospaced; font-size: 12pt; font-style: normal; font-weight: normal; text-decoration: none }<BR>      --><BR>    </style><BR>    <BR>  </head><BR>  <body><BR>    <font size="3" face="Monospaced" color="#000000">*&#160;Encoding:&#160;UTF-8.<br><br>*&#160;/Step-1:&#160;Data&#160;loading/<br><br>GET<br>&#160;&#160;FILE='E:\Statistical&#160;Softwares\SPSS\CUSPC-SPSS\Assignments\Assignment-3\assignment3.sav'.<br><br>&gt;Warning&#160;#&#160;67.&#160;&#160;Command&#160;name:&#160;GET&#160;FILE<br>&gt;The&#160;document&#160;is&#160;already&#160;in&#160;use&#160;by&#160;another&#160;user&#160;or&#160;process.&#160;&#160;If&#160;you&#160;make<br>&gt;changes&#160;to&#160;the&#160;document&#160;they&#160;may&#160;overwrite&#160;changes&#160;made&#160;by&#160;others&#160;or&#160;your<br>&gt;changes&#160;may&#160;be&#160;overwritten&#160;by&#160;others.<br>&gt;File&#160;opened&#160;E:\Statistical&#160;Softwares\SPSS\CUSPC-SPSS\Assignments\Assignment-3\assignment3.sav<br>DATASET&#160;NAME&#160;DataSet1&#160;WINDOW=FRONT.</font><BR>  </body><BR></html><BR></p><p class="procedureTitle"><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:14pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Dataset&nbsp;Name</p>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,0,1,0,0" data-cols="0,1" data-heights="27,0,0,37,0" data-widths="0,360" data-curCounts="1,1" data-curSizess="1,1">
+<caption>Warnings</caption>
+<thead>
+</thead>
+<tbody data-rect="0,0,0,0">
+<tr><td class=" hal" style="min-width:360px">The active dataset will replace the existing dataset named DataSet1.</td></tr>
+</tbody>
+</table>
+</div>
+</div><p align="left"><html><BR>  <head><BR>    <style type="text/css"><BR>      <!--<BR>        p { color: 000000; font-family: Monospaced; font-size: 12pt; font-style: normal; font-weight: normal; text-decoration: none }<BR>      --><BR>    </style><BR>    <BR>  </head><BR>  <body><BR>    <font size="3" face="Monospaced" color="#000000"><br><BR>    DATASET&#160;ACTIVATE&#160;DataSet1.<br><br>*&#160;/Step-2:&#160;Data&#160;Checking/<br><br>FREQUENCIES&#160;VARIABLES=mother_id&#160;low_birth_weight&#160;mother_age&#160;anc_visits&#160;wealth_index&#160;residence<br>/FORMAT=NOTABLE<br>/STATISTICS=RANGE&#160;MINIMUM&#160;MAXIMUM<br>/ORDER=ANALYSIS.</font><BR>  </body><BR></html><BR></p><p class="procedureTitle"><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:14pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Frequencies</p>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,1,5,0,0" data-cols="2,6" data-heights="27,0,81,110,0" data-widths="110,686" data-curCounts="5,6" data-curSizess="5,6">
+<caption colspan="8">Statistics</caption>
+<thead>
+<tr><th class="cornerLabels" colspan="2">&nbsp;</th><th>Mother identification number</th><th>Baby born with low birth weight (&lt;2500 g)</th><th>Mother's age (years)</th><th>Number of antenatal care (ANC) visits during pregnancy</th><th>Household wealth index</th><th>Place of residence</th></tr>
+</thead>
+<tbody data-rect="0,4,0,5">
+<tr><th rowspan="2" style="min-width:48px">N</th><th style="min-width:62px">Valid</th><td style="min-width:96px">400</td><td style="min-width:96px">400</td><td style="min-width:96px">400</td><td style="min-width:96px">400</td><td style="min-width:96px">400</td><td style="min-width:96px">400</td></tr>
+<tr><th>Missing</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+<tr><th colspan="2">Range</th><td>399.00</td><td>1.00</td><td>23.00</td><td>11.00</td><td>2.00</td><td>1.00</td></tr>
+<tr><th colspan="2">Minimum</th><td>1001.00</td><td>.00</td><td>16.00</td><td>.00</td><td>1.00</td><td>.00</td></tr>
+<tr><th colspan="2">Maximum</th><td>1400.00</td><td>1.00</td><td>39.00</td><td>11.00</td><td>3.00</td><td>1.00</td></tr>
+</tbody>
+</table>
+</div>
+</div><p align="left"><html><BR>  <head><BR>    <style type="text/css"><BR>      <!--<BR>        p { color: 000000; font-family: Monospaced; font-size: 12pt; font-style: normal; font-weight: normal; text-decoration: none }<BR>      --><BR>    </style><BR>    <BR>  </head><BR>  <body><BR>    <font size="3" face="Monospaced" color="#000000"><br><BR>    *&#160;No&#160;missing&#160;or&#160;impossible&#160;values&#160;exist,&#160;we&#160;can&#160;continue.<br><br>*&#160;Question&#160;1:<br><br>*&#160;Custom&#160;Tables.<br>CTABLES<br>&#160;&#160;/VLABELS&#160;VARIABLES=low_birth_weight&#160;residence&#160;wealth_index&#160;mother_age&#160;anc_visits&#160;DISPLAY=LABEL<br>&#160;&#160;/TABLE&#160;low_birth_weight&#160;[TABLEPCT.COUNT&#160;'Frequency,&#160;n&#160;(%)'&#160;PCT40.2]&#160;+&#160;residence<br>&#160;&#160;&#160;&#160;[TABLEPCT.COUNT&#160;'Frequency,&#160;n&#160;(%)'&#160;PCT40.2]&#160;+&#160;wealth_index&#160;[TABLEPCT.COUNT&#160;'Frequency,&#160;n&#160;(%)'<br>&#160;&#160;&#160;&#160;PCT40.2]&#160;+&#160;mother_age&#160;[MEAN,&#160;STDDEV,&#160;MEDIAN,&#160;MINIMUM,&#160;MAXIMUM]&#160;+&#160;anc_visits&#160;[MEAN,&#160;STDDEV,&#160;MEDIAN,<br>&#160;&#160;&#160;&#160;MINIMUM,&#160;MAXIMUM]<br>&#160;&#160;/CATEGORIES&#160;VARIABLES=low_birth_weight&#160;residence&#160;wealth_index&#160;ORDER=A&#160;KEY=VALUE&#160;EMPTY=INCLUDE<br>&#160;&#160;/CRITERIA&#160;CILEVEL=95.</font><BR>  </body><BR></html><BR></p><p class="procedureTitle"><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:14pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Custom&nbsp;Tables</p>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="0,0,1,9,0,0" data-cols="2,6" data-heights="0,0,36,213,0" data-widths="320,788" data-curCounts="9,6" data-curSizess="9,6">
+
+<thead>
+<tr><th class="cornerLabels" colspan="2">&nbsp;</th><th>Frequency, n (%)</th><th>Mean</th><th>Standard Deviation</th><th>Median</th><th>Minimum</th><th>Maximum</th></tr>
+</thead>
+<tbody data-rect="0,8,0,5">
+<tr><th rowspan="2" style="min-width:160px">Baby born with low birth weight (&lt;2500 g)</th><th style="min-width:160px">Normal (&gt;=2500 g)</th><td style="min-width:96px">76.25%</td><td class=" hal" style="min-width:67px">&nbsp;</td><td class=" hal" style="min-width:96px">&nbsp;</td><td class=" hal" style="min-width:67px">&nbsp;</td><td class=" hal" style="min-width:70px">&nbsp;</td><td class=" hal" style="min-width:72px">&nbsp;</td></tr>
+<tr><th>Low (&lt;2500 g)</th><td>23.75%</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td></tr>
+<tr><th rowspan="2">Place of residence</th><th>Rural</th><td>61.00%</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td></tr>
+<tr><th>Urban</th><td>39.00%</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td></tr>
+<tr><th rowspan="3">Household wealth index</th><th>Poor</th><td>42.25%</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td></tr>
+<tr><th>Middle</th><td>40.50%</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td></tr>
+<tr><th>Rich</th><td>17.25%</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td></tr>
+<tr><th colspan="2">Mother's age (years)</th><td class=" hal">&nbsp;</td><td>25.97</td><td>4.70</td><td>26.00</td><td>16.00</td><td>39.00</td></tr>
+<tr><th colspan="2">Number of antenatal care (ANC) visits during pregnancy</th><td class=" hal">&nbsp;</td><td>4.64</td><td>2.07</td><td>5.00</td><td>.00</td><td>11.00</td></tr>
+</tbody>
+</table>
+</div>
+</div><p align="left"><html><BR>  <head><BR>    <style type="text/css"><BR>      <!--<BR>        p { color: 000000; font-family: Monospaced; font-size: 12pt; font-style: normal; font-weight: normal; text-decoration: none }<BR>      --><BR>    </style><BR>    <BR>  </head><BR>  <body><BR>    <font size="3" face="Monospaced" color="#000000"><br><BR>    *&#160;Question&#160;2:<br><br>*&#160;H_0:&#160;The&#160;mean&#160;number&#160;of&#160;ANC&#160;visits&#160;doesn't&#160;differ&#160;between&#160;mothers&#160;living&#160;in&#160;rural&#160;and&#160;urban&#160;areas.&#160;(&#956;_1&#160;=&#160;&#956;_2).<br>*&#160;H_1:&#160;The&#160;mean&#160;number&#160;of&#160;ANC&#160;visits&#160;differs&#160;between&#160;mothers&#160;living&#160;in&#160;rural&#160;and&#160;urban&#160;areas.&#160;(&#956;_1&#160;&#8800;&#160;&#956;_2).<br><br>T-TEST&#160;GROUPS=residence(0&#160;1)<br>&#160;&#160;/MISSING=ANALYSIS<br>&#160;&#160;/VARIABLES=anc_visits<br>&#160;&#160;/ES&#160;DISPLAY(TRUE)<br>&#160;&#160;/CRITERIA=CI(.95).</font><BR>  </body><BR></html><BR></p><p class="procedureTitle"><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:14pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>T-Test</p>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,1,2,0,0" data-cols="2,4" data-heights="27,0,36,52,0" data-widths="281,605" data-curCounts="2,4" data-curSizess="2,4">
+<caption colspan="6">Group Statistics</caption>
+<thead>
+<tr><th class="cornerLabels">Place of residence</th><th>N</th><th>Mean</th><th>Std. Deviation</th><th>Std. Error Mean</th></tr>
+</thead>
+<tbody data-rect="0,1,0,3">
+<tr><th rowspan="2" style="min-width:160px">Number of antenatal care (ANC) visits during pregnancy</th><th style="min-width:121px">Rural</th><td style="min-width:67px">244</td><td style="min-width:67px">3.9713</td><td style="min-width:94px">1.88212</td><td style="min-width:96px">.12049</td></tr>
+<tr><th>Urban</th><td>156</td><td>5.6923</td><td>1.91637</td><td>.15343</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,3,2,0,0" data-cols="2,9" data-heights="27,0,93,74,0" data-widths="320,1122" data-curCounts="2,9" data-curSizess="2,9">
+<caption colspan="11">Independent Samples Test</caption>
+<thead>
+<tr><th class="cornerLabels" rowspan="3" colspan="2">&nbsp;</th><th colspan="2">Levene's Test for Equality of Variances</th><th colspan="6">t-test for Equality of Means</th></tr>
+<tr><th rowspan="2">F</th><th rowspan="2">Sig.</th><th rowspan="2">t</th><th rowspan="2">df</th><th rowspan="2">Sig. (2-tailed)</th><th rowspan="2">Mean Difference</th><th rowspan="2">Std. Error Difference</th><th>95% Confidence Interval of the Difference</th></tr>
+<tr><th>Lower</th><th>Upper</th></tr>
+</thead>
+<tbody data-rect="0,1,0,8">
+<tr><th rowspan="2" style="min-width:160px">Number of antenatal care (ANC) visits during pregnancy</th><th style="min-width:160px">Equal variances assumed</th><td style="min-width:96px">.131</td><td style="min-width:96px">.717</td><td style="min-width:67px">-8.857</td><td style="min-width:67px">398</td><td style="min-width:92px">.000</td><td style="min-width:96px">-1.72100</td><td style="min-width:96px">.19431</td><td style="min-width:96px">-2.10301</td><td style="min-width:96px">-1.33899</td></tr>
+<tr><th>Equal variances not assumed</th><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td>-8.822</td><td>326.034</td><td>.000</td><td>-1.72100</td><td>.19509</td><td>-2.10479</td><td>-1.33721</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,2,3,0,1" data-cols="2,4" data-heights="27,0,42,66,67" data-widths="282,624" data-curCounts="3,4" data-curSizess="3,4">
+<caption colspan="6">Independent Samples Effect Sizes</caption>
+<thead>
+<tr><th class="cornerLabels" rowspan="2" colspan="2">&nbsp;</th><th rowspan="2" title="a. The denominator used in estimating the effect sizes. 
+Cohen's d uses the pooled standard deviation. 
+Hedges' correction uses the pooled standard deviation, plus a correction factor. 
+Glass's delta uses the sample standard deviation of the control group.">Standardizer<sup>a</sup></th><th rowspan="2">Point Estimate</th><th>95% Confidence Interval</th></tr>
+<tr><th>Lower</th><th>Upper</th></tr>
+</thead>
+<tbody data-rect="0,2,0,3">
+<tr><th rowspan="3" style="min-width:160px">Number of antenatal care (ANC) visits during pregnancy</th><th style="min-width:122px">Cohen's d</th><td style="min-width:94px">1.89553</td><td style="min-width:96px">-.908</td><td style="min-width:76px">-1.118</td><td style="min-width:76px">-.697</td></tr>
+<tr><th>Hedges' correction</th><td>1.89911</td><td>-.906</td><td>-1.116</td><td>-.696</td></tr>
+<tr><th>Glass's delta</th><td>1.91637</td><td>-.898</td><td>-1.121</td><td>-.672</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="6">a.&nbsp;The denominator used in estimating the effect sizes. 
+Cohen's d uses the pooled standard deviation. 
+Hedges' correction uses the pooled standard deviation, plus a correction factor. 
+Glass's delta uses the sample standard deviation of the control group.</td></tr>
+</tfoot>
+</table>
+</div>
+</div><p align="left"><html><BR>  <head><BR>    <style type="text/css"><BR>      <!--<BR>        p { color: 000000; font-family: Monospaced; font-size: 12pt; font-style: normal; font-weight: normal; text-decoration: none }<BR>      --><BR>    </style><BR>    <BR>  </head><BR>  <body><BR>    <font size="3" face="Monospaced" color="#000000"><br><BR>    *&#160;Question&#160;3:<br><br>LOGISTIC&#160;REGRESSION&#160;VARIABLES&#160;low_birth_weight<br>&#160;&#160;/METHOD=ENTER&#160;mother_age&#160;anc_visits&#160;wealth_index&#160;residence<br>&#160;&#160;/CONTRAST&#160;(wealth_index)=Indicator(1)<br>&#160;&#160;/CONTRAST&#160;(residence)=Indicator(1)<br>&#160;&#160;/CLASSPLOT<br>&#160;&#160;/PRINT=GOODFIT&#160;CI(95)<br>&#160;&#160;/CRITERIA=PIN(0.05)&#160;POUT(0.10)&#160;ITERATE(20)&#160;CUT(0.5).</font><BR>  </body><BR></html><BR></p><p class="procedureTitle"><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:14pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Logistic&nbsp;Regression</p>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,1,5,0,1" data-cols="2,2" data-heights="27,0,23,110,37" data-widths="235,369" data-curCounts="5,2" data-curSizess="5,2">
+<caption colspan="4">Case Processing Summary</caption>
+<thead>
+<tr><th class="cornerLabels" colspan="2" title="a. If weight is in effect, see classification table for the total number of cases.">Unweighted Cases<sup>a</sup></th><th>N</th><th>Percent</th></tr>
+</thead>
+<tbody data-rect="0,4,0,1">
+<tr><th rowspan="3" style="min-width:107px">Selected Cases</th><th style="min-width:128px">Included in Analysis</th><td style="min-width:67px">400</td><td style="min-width:67px">100.0</td></tr>
+<tr><th>Missing Cases</th><td>0</td><td>.0</td></tr>
+<tr><th>Total</th><td>400</td><td>100.0</td></tr>
+<tr><th colspan="2">Unselected Cases</th><td>0</td><td>.0</td></tr>
+<tr><th colspan="2">Total</th><td>400</td><td>100.0</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="4">a.&nbsp;If weight is in effect, see classification table for the total number of cases.</td></tr>
+</tfoot>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,1,2,0,0" data-cols="1,1" data-heights="45,0,21,44,0" data-widths="123,217" data-curCounts="2,1" data-curSizess="2,1">
+<caption colspan="2">Dependent Variable Encoding</caption>
+<thead>
+<tr><th class="cornerLabels">Original Value</th><th>Internal Value</th></tr>
+</thead>
+<tbody data-rect="0,1,0,0">
+<tr><th style="min-width:123px">Normal (&gt;=2500 g)</th><td style="min-width:94px">0</td></tr>
+<tr><th>Low (&lt;2500 g)</th><td>1</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,2,5,0,0" data-cols="2,3" data-heights="27,0,42,110,0" data-widths="206,416" data-curCounts="5,3" data-curSizess="5,3">
+<caption colspan="5">Categorical Variables Codings</caption>
+<thead>
+<tr><th class="cornerLabels" rowspan="2" colspan="2">&nbsp;</th><th rowspan="2">Frequency</th><th>Parameter coding</th></tr>
+<tr><th>(1)</th><th>(2)</th></tr>
+</thead>
+<tbody data-rect="0,4,0,2">
+<tr><th rowspan="3" style="min-width:151px">Household wealth index</th><th style="min-width:55px">Poor</th><td style="min-width:76px">169</td><td style="min-width:67px">.000</td><td style="min-width:67px">.000</td></tr>
+<tr><th>Middle</th><td>162</td><td>1.000</td><td>.000</td></tr>
+<tr><th>Rich</th><td>69</td><td>.000</td><td>1.000</td></tr>
+<tr><th rowspan="2">Place of residence</th><th>Rural</th><td>244</td><td>.000</td><td class=" hal">&nbsp;</td></tr>
+<tr><th>Urban</th><td>156</td><td>1.000</td><td class=" hal">&nbsp;</td></tr>
+</tbody>
+</table>
+</div>
+</div><p class="procedureTitle"><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:14pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Block&nbsp;0:&nbsp;Beginning&nbsp;Block</p>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,3,3,0,2" data-cols="3,3" data-heights="29,0,93,66,44" data-widths="337,625" data-curCounts="3,3" data-curSizess="3,3">
+<caption colspan="6" title="a. Constant is included in the model.
+b. The cut value is .500">Classification Table<sup>a,b</sup></caption>
+<thead>
+<tr><th class="cornerLabels" rowspan="3" colspan="2">Observed</th><th colspan="2">Predicted</th></tr>
+<tr><th colspan="2">Baby born with low birth weight (&lt;2500 g)</th><th rowspan="2">Percentage Correct</th></tr>
+<tr><th>Normal (&gt;=2500 g)</th><th>Low (&lt;2500 g)</th></tr>
+</thead>
+<tbody data-rect="0,2,0,2">
+<tr><th rowspan="3" style="min-width:54px">Step 0</th><th rowspan="2" style="min-width:160px">Baby born with low birth weight (&lt;2500 g)</th><th style="min-width:123px">Normal (&gt;=2500 g)</th><td style="min-width:96px">305</td><td style="min-width:96px">0</td><td style="min-width:96px">100.0</td></tr>
+<tr><th>Low (&lt;2500 g)</th><td>95</td><td>0</td><td>.0</td></tr>
+<tr><th colspan="2">Overall Percentage</th><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td>76.3</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="6">a.&nbsp;Constant is included in the model.</td></tr>
+<tr><td colspan="6">b.&nbsp;The cut value is .500</td></tr>
+</tfoot>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,1,1,0,0" data-cols="2,6" data-heights="27,0,21,22,0" data-widths="123,525" data-curCounts="1,6" data-curSizess="1,6">
+<caption colspan="8">Variables in the Equation</caption>
+<thead>
+<tr><th class="cornerLabels" colspan="2">&nbsp;</th><th>B</th><th>S.E.</th><th>Wald</th><th>df</th><th>Sig.</th><th>Exp(B)</th></tr>
+</thead>
+<tbody data-rect="0,0,0,5">
+<tr><th style="min-width:54px">Step 0</th><th style="min-width:69px">Constant</th><td style="min-width:67px">-1.166</td><td style="min-width:67px">.117</td><td style="min-width:67px">98.556</td><td style="min-width:67px">1</td><td style="min-width:67px">.000</td><td style="min-width:67px">.311</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,1,7,0,0" data-cols="3,3" data-heights="27,0,21,214,0" data-widths="285,486" data-curCounts="7,3" data-curSizess="7,3">
+<caption colspan="6">Variables not in the Equation</caption>
+<thead>
+<tr><th class="cornerLabels" colspan="3">&nbsp;</th><th>Score</th><th>df</th><th>Sig.</th></tr>
+</thead>
+<tbody data-rect="0,6,0,2">
+<tr><th rowspan="7" style="min-width:54px">Step 0</th><th rowspan="6" style="min-width:71px">Variables</th><th style="min-width:160px">Mother's age (years)</th><td style="min-width:67px">4.723</td><td style="min-width:67px">1</td><td style="min-width:67px">.030</td></tr>
+<tr><th>Number of antenatal care (ANC) visits during pregnancy</th><td>26.734</td><td>1</td><td>.000</td></tr>
+<tr><th>Household wealth index</th><td>19.116</td><td>2</td><td>.000</td></tr>
+<tr><th>Household wealth index(1)</th><td>5.143</td><td>1</td><td>.023</td></tr>
+<tr><th>Household wealth index(2)</th><td>6.804</td><td>1</td><td>.009</td></tr>
+<tr><th>Place of residence(1)</th><td>18.906</td><td>1</td><td>.000</td></tr>
+<tr><th colspan="2">Overall Statistics</th><td>46.002</td><td>5</td><td>.000</td></tr>
+</tbody>
+</table>
+</div>
+</div><p class="procedureTitle"><head><style type="text/css">p{color:0;font-family:SansSerif;font-size:14pt;font-style:normal;font-weight:bold;text-decoration:none}</style></head><BR>Block&nbsp;1:&nbsp;Method&nbsp;=&nbsp;Enter</p>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,1,3,0,0" data-cols="2,3" data-heights="27,0,21,66,0" data-widths="106,321" data-curCounts="3,3" data-curSizess="3,3">
+<caption colspan="5">Omnibus Tests of Model Coefficients</caption>
+<thead>
+<tr><th class="cornerLabels" colspan="2">&nbsp;</th><th>Chi-square</th><th>df</th><th>Sig.</th></tr>
+</thead>
+<tbody data-rect="0,2,0,2">
+<tr><th rowspan="3" style="min-width:54px">Step 1</th><th style="min-width:52px">Step</th><td style="min-width:81px">50.129</td><td style="min-width:67px">5</td><td style="min-width:67px">.000</td></tr>
+<tr><th>Block</th><td>50.129</td><td>5</td><td>.000</td></tr>
+<tr><th>Model</th><td>50.129</td><td>5</td><td>.000</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,1,1,0,1" data-cols="1,3" data-heights="27,0,36,24,52" data-widths="48,336" data-curCounts="1,3" data-curSizess="1,3">
+<caption colspan="4">Model Summary</caption>
+<thead>
+<tr><th class="cornerLabels">Step</th><th>-2 Log likelihood</th><th>Cox &amp; Snell R Square</th><th>Nagelkerke R Square</th></tr>
+</thead>
+<tbody data-rect="0,0,0,2">
+<tr><th style="min-width:48px">1</th><td style="min-width:96px" title="a. Estimation terminated at iteration number 5 because parameter estimates changed by less than .001.">388.416<sup>a</sup></td><td style="min-width:96px">.118</td><td style="min-width:96px">.177</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="4">a.&nbsp;Estimation terminated at iteration number 5 because parameter estimates changed by less than .001.</td></tr>
+</tfoot>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,1,1,0,0" data-cols="1,3" data-heights="27,0,21,22,0" data-widths="48,263" data-curCounts="1,3" data-curSizess="1,3">
+<caption colspan="4">Hosmer and Lemeshow Test</caption>
+<thead>
+<tr><th class="cornerLabels">Step</th><th>Chi-square</th><th>df</th><th>Sig.</th></tr>
+</thead>
+<tbody data-rect="0,0,0,2">
+<tr><th style="min-width:48px">1</th><td style="min-width:81px">5.653</td><td style="min-width:67px">8</td><td style="min-width:67px">.686</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,2,10,0,0" data-cols="2,5" data-heights="27,0,57,220,0" data-widths="102,553" data-curCounts="10,5" data-curSizess="10,5">
+<caption colspan="7">Contingency Table for Hosmer and Lemeshow Test</caption>
+<thead>
+<tr><th class="cornerLabels" rowspan="2" colspan="2">&nbsp;</th><th colspan="2">Baby born with low birth weight (&lt;2500 g) = Normal (&gt;=2500 g)</th><th colspan="2">Baby born with low birth weight (&lt;2500 g) = Low (&lt;2500 g)</th><th rowspan="2">Total</th></tr>
+<tr><th>Observed</th><th>Expected</th><th>Observed</th><th>Expected</th></tr>
+</thead>
+<tbody data-rect="0,9,0,4">
+<tr><th rowspan="10" style="min-width:54px">Step 1</th><th style="min-width:48px">1</th><td style="min-width:96px">41</td><td style="min-width:96px">39.056</td><td style="min-width:96px">0</td><td style="min-width:96px">1.944</td><td style="min-width:67px">41</td></tr>
+<tr><th>2</th><td>37</td><td>36.657</td><td>3</td><td>3.343</td><td>40</td></tr>
+<tr><th>3</th><td>34</td><td>36.251</td><td>7</td><td>4.749</td><td>41</td></tr>
+<tr><th>4</th><td>34</td><td>34.075</td><td>6</td><td>5.925</td><td>40</td></tr>
+<tr><th>5</th><td>34</td><td>32.509</td><td>6</td><td>7.491</td><td>40</td></tr>
+<tr><th>6</th><td>31</td><td>31.701</td><td>10</td><td>9.299</td><td>41</td></tr>
+<tr><th>7</th><td>25</td><td>28.536</td><td>15</td><td>11.464</td><td>40</td></tr>
+<tr><th>8</th><td>26</td><td>25.839</td><td>14</td><td>14.161</td><td>40</td></tr>
+<tr><th>9</th><td>25</td><td>23.228</td><td>15</td><td>16.772</td><td>40</td></tr>
+<tr><th>10</th><td>18</td><td>17.148</td><td>19</td><td>19.852</td><td>37</td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,3,3,0,1" data-cols="3,3" data-heights="29,0,93,66,22" data-widths="337,625" data-curCounts="3,3" data-curSizess="3,3">
+<caption colspan="6" title="a. The cut value is .500">Classification Table<sup>a</sup></caption>
+<thead>
+<tr><th class="cornerLabels" rowspan="3" colspan="2">Observed</th><th colspan="2">Predicted</th></tr>
+<tr><th colspan="2">Baby born with low birth weight (&lt;2500 g)</th><th rowspan="2">Percentage Correct</th></tr>
+<tr><th>Normal (&gt;=2500 g)</th><th>Low (&lt;2500 g)</th></tr>
+</thead>
+<tbody data-rect="0,2,0,2">
+<tr><th rowspan="3" style="min-width:54px">Step 1</th><th rowspan="2" style="min-width:160px">Baby born with low birth weight (&lt;2500 g)</th><th style="min-width:123px">Normal (&gt;=2500 g)</th><td style="min-width:96px">297</td><td style="min-width:96px">8</td><td style="min-width:96px">97.4</td></tr>
+<tr><th>Low (&lt;2500 g)</th><td>81</td><td>14</td><td>14.7</td></tr>
+<tr><th colspan="2">Overall Percentage</th><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td>77.8</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="6">a.&nbsp;The cut value is .500</td></tr>
+</tfoot>
+</table>
+</div>
+</div>
+<div>
+<style>
+*{
+border-collapse:collapse;
+}
+.default .title{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:bold;
+padding-left:6pt;
+vertical-align:middle;
+font-size:11pt;
+padding-bottom:6pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .layers{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .cornerLabels{
+background-color:#ffffff;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .columnLabels{
+background-color:#ffffff;
+padding-top:2pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:bottom;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:center;
+padding-right:8pt;
+}
+.default .rowLabels{
+background-color:#e0e0e0;
+padding-top:3pt;
+color:#264a60;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .o, .default .e{
+background-color:#f9f9fb;
+padding-top:3pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:2pt;
+font-family:sans-serif;
+text-align:right;
+padding-right:8pt;
+}
+.default .o{
+background-color:null;
+color:null;
+}
+.default .e{
+background-color:#f9f9fb;
+color:#010205;
+}
+.default .caption{
+background-color:#ffffff;
+padding-top:1pt;
+color:#010205;
+font-weight:normal;
+padding-left:6pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:1pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:8pt;
+}
+.default .footnotes{
+background-color:#ffffff;
+padding-top:2pt;
+color:#010205;
+font-weight:normal;
+padding-left:18pt;
+vertical-align:top;
+font-size:9pt;
+padding-bottom:3pt;
+font-family:sans-serif;
+text-align:left;
+padding-right:18pt;
+}
+.default .titleLayerSeparator{
+border-top:1px none #152935;
+}
+.default .innerFrameBd{
+border-top:1px none #152935;
+border-right:1px none #152935;
+border-left:1px none #152935;
+border-bottom:1px solid #152935;
+}
+.default .dataAreaLeft{
+border-left:1px none #152935;
+}
+.default .dataAreaTop{
+border-top:1px solid #152935;
+}
+.default .hCR{
+border-top:1px solid #aeaeae;
+}
+.default .hDR{
+border-top:1px none #aeaeae;
+}
+.default .vCR{
+border-left:1px none #aeaeae;
+}
+.default .vDR{
+border-left:1px none #aeaeae;
+}
+.default .hCC{
+border-bottom:1px none #aeaeae;
+}
+.default .hDC{
+border-bottom:1px none #aeaeae;
+}
+.default .vCC{
+border-right:1px solid #e0e0e0;
+}
+.default .vDC{
+border-right:1px none #aeaeae;
+}
+</style>
+</div>
+
+<div>
+
+<style>
+.pivot{color:#264a60;background-color:#ffffff;font-family:sans-serif;font-size:9pt;font-weight:normal;}
+.pivot th{font-weight:normal;}
+.pivot caption{padding-top:1pt;color:#010205;font-weight:bold;padding-left:6pt;vertical-align:middle;font-size:11pt;padding-bottom:6pt;text-align:center;padding-right:8pt;}
+.layers{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:bottom;padding-bottom:3pt;text-align:left;padding-right:8pt;}
+.cornerLabels{padding-top:3pt;padding-left:6pt;vertical-align:bottom;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot thead th:not:(.cornerLabels){padding-top:2pt;padding-left:6pt;vertical-align:bottom;padding-bottom:2pt;text-align:center;padding-right:8pt;}
+.pivot tbody th{background-color:#e0e0e0;padding-top:3pt;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:left;padding-right:8pt;}
+.pivot tbody td{background-color:#f9f9fb;padding-top:3pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:2pt;text-align:right;padding-right:8pt;}
+.pivot tbody tr:nth-child(even) td{background-color:#f9f9fb;color:#010205;}
+.caption{padding-top:1pt;color:#010205;padding-left:6pt;vertical-align:top;padding-bottom:1pt;text-align:left;padding-right:8pt;}
+.pivot tfoot tr td{padding-top:2pt;color:#010205;padding-left:18pt;vertical-align:top;padding-bottom:3pt;text-align:left;padding-right:18pt;}
+.titleLayerSeparator{border-top:1px none #152935;}
+.pivot tbody{border-top:1px none #152935;border-right:1px none #152935;border-left:1px none #152935;border-bottom:1px solid #152935;}
+.pivot tbody tr td:first-of-type{border-left:1px none #152935;}
+.pivot tbody tr:first-child td{border-top:1px solid #152935;}
+.pivot tbody tr + tr{border-top:1px solid #aeaeae;}
+.hDR{border-top:1px none #aeaeae;}
+.vCR{border-left:1px none #aeaeae;}
+.vDR{border-left:1px none #aeaeae;}
+.hCC{border-bottom:1px none #aeaeae;}
+.hDC{border-bottom:1px none #aeaeae;}
+.pivot thead th:not(:last-child), .pivot td:not(:last-child){border-right:1px solid #e0e0e0;}
+.vDC{border-right:1px none #aeaeae;}
+</style>
+<table class="pivot" data-rows="1,0,2,7,0,1" data-cols="2,8" data-heights="27,0,42,214,37" data-widths="220,756" data-curCounts="7,8" data-curSizess="7,8">
+<caption colspan="10">Variables in the Equation</caption>
+<thead>
+<tr><th class="cornerLabels" rowspan="2" colspan="2">&nbsp;</th><th rowspan="2">B</th><th rowspan="2">S.E.</th><th rowspan="2">Wald</th><th rowspan="2">df</th><th rowspan="2">Sig.</th><th rowspan="2">Exp(B)</th><th>95% C.I.for EXP(B)</th></tr>
+<tr><th>Lower</th><th>Upper</th></tr>
+</thead>
+<tbody data-rect="0,6,0,7">
+<tr><th rowspan="7" style="min-width:60px" title="a. Variable(s) entered on step 1: Mother's age (years), Number of antenatal care (ANC) visits during pregnancy, Household wealth index, Place of residence.">Step 1<sup>a</sup></th><th style="min-width:160px">Mother's age (years)</th><td style="min-width:67px">-.064</td><td style="min-width:67px">.028</td><td style="min-width:67px">5.326</td><td style="min-width:67px">1</td><td style="min-width:67px">.021</td><td style="min-width:67px">.938</td><td style="min-width:67px">.888</td><td style="min-width:67px">.990</td></tr>
+<tr><th>Number of antenatal care (ANC) visits during pregnancy</th><td>-.244</td><td>.070</td><td>12.012</td><td>1</td><td>.001</td><td>.783</td><td>.682</td><td>.899</td></tr>
+<tr><th>Household wealth index</th><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td>9.272</td><td>2</td><td>.010</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td></tr>
+<tr><th>Household wealth index(1)</th><td>-.727</td><td>.274</td><td>7.044</td><td>1</td><td>.008</td><td>.483</td><td>.282</td><td>.827</td></tr>
+<tr><th>Household wealth index(2)</th><td>-.923</td><td>.434</td><td>4.532</td><td>1</td><td>.033</td><td>.397</td><td>.170</td><td>.929</td></tr>
+<tr><th>Place of residence(1)</th><td>-.656</td><td>.311</td><td>4.450</td><td>1</td><td>.035</td><td>.519</td><td>.282</td><td>.955</td></tr>
+<tr><th>Constant</th><td>2.126</td><td>.787</td><td>7.291</td><td>1</td><td>.007</td><td>8.378</td><td class=" hal">&nbsp;</td><td class=" hal">&nbsp;</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="10">a.&nbsp;Variable(s) entered on step 1: Mother's age (years), Number of antenatal care (ANC) visits during pregnancy, Household wealth index, Place of residence.</td></tr>
+</tfoot>
+</table>
+</div>
+</div><p align="left"><head><style type="text/css">p{color:0;font-family:Monospaced;font-size:12pt;font-style:normal;font-weight:normal;text-decoration:none}</style></head><BR><br></br><br></br><br></br><br></br><br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Step&nbsp;number:&nbsp;1<br></br><br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Observed&nbsp;Groups&nbsp;and&nbsp;Predicted&nbsp;Probabilities<br></br><br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20&nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15&nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp;LL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+<br></br>E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp;LL&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>Q&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NNL&nbsp;&nbsp;NN&nbsp;L&nbsp;&nbsp;N&nbsp;&nbsp;L&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>U&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NNNN&nbsp;&nbsp;NN&nbsp;N&nbsp;&nbsp;N&nbsp;&nbsp;L&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>E&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NNNNNLLNN&nbsp;N&nbsp;&nbsp;N&nbsp;&nbsp;N&nbsp;N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+<br></br>N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NNNNNNLNNNN&nbsp;&nbsp;N&nbsp;LNLN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;NNNNNNNNNNNNNLLNNLNNN&nbsp;&nbsp;&nbsp;LLL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LLN&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>Y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;NNNNNNNNNNNNNLNNNNNNNL&nbsp;&nbsp;LNN&nbsp;&nbsp;&nbsp;&nbsp;LLLNLL&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;+&nbsp;&nbsp;NNNNNNNNNNNNNNNNNNNNNNL&nbsp;LLNNLL&nbsp;LNLLNLL&nbsp;N&nbsp;L&nbsp;&nbsp;N&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;NNNNNNNNNNNNNNNNNNNNNNNLLNNNLNLLNNNNLLLN&nbsp;LL&nbsp;N&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNLNLNNL&nbsp;N&nbsp;LLLL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNL&nbsp;N&nbsp;NNLNL&nbsp;&nbsp;LLNN&nbsp;NL&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br></br>Predicted&nbsp;---------+---------+---------+---------+---------+---------+---------+---------+---------+----------<br></br>&nbsp;&nbsp;Prob:&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1<br></br>&nbsp;&nbsp;Group:&nbsp;&nbsp;NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL<br></br><br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Predicted&nbsp;Probability&nbsp;is&nbsp;of&nbsp;Membership&nbsp;for&nbsp;Low&nbsp;(&lt;2500&nbsp;g)<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The&nbsp;Cut&nbsp;Value&nbsp;is&nbsp;.50<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Symbols:&nbsp;N&nbsp;-&nbsp;Normal&nbsp;(&gt;=2500&nbsp;g)<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;-&nbsp;Low&nbsp;(&lt;2500&nbsp;g)<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Each&nbsp;Symbol&nbsp;Represents&nbsp;1.25&nbsp;Cases.</p>
+</body>
+</html>
