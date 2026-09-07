@@ -91,6 +91,6 @@ experience, and hours of company-funded training) together account for `56.1% of
 
 ## Full Report
 
-[View the HTML report](use the modified github link here using htmlpreview.github.io)
+[View the HTML report](https://htmlpreview.github.io/?https://github.com/Shah-Md-Tasrif-Rahman/Portfolio_SPSS-CUSPC/blob/main/Assignment-2/Final%20Output/Final%20Output.htm)
 
 [View the PDF report](./Final%20Output/assignment2_output_Shah_Md._Tasrif_Rahman.pdf)
