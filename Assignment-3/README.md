@@ -115,6 +115,6 @@ Maternal age was significantly associated with low birth weight, `B = -0.064, SE
 
 ## Full Report
 
-[View the HTML report](use the modified github link here using htmlpreview.github.io)
+[View the HTML report](https://htmlpreview.github.io/?https://github.com/Shah-Md-Tasrif-Rahman/Portfolio_SPSS-CUSPC/blob/main/Assignment-3/Final%20Output/Final%20Output.htm)
 
 [View the PDF report](./Final%20Output/Assignment3_Shah%20Md.%20Tasrif%20Rahman.pdf)
